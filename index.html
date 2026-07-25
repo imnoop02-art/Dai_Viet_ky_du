@@ -84,12 +84,23 @@
         <span class="font-black text-xl tracking-wider text-brandRed uppercase">ĐẠI VIỆT KỲ DU</span>
       </a>
 
-      <div class="hidden md:flex items-center gap-4">
-        <a href="#demo" class="bg-black text-white font-extrabold text-xs uppercase tracking-widest px-6 py-3 rounded-full hover:bg-brandRed transition-colors shadow-sm">
-          Trải Nghiệm AI <i class="fa-solid fa-arrow-right ml-1"></i>
+ <!-- CỤM GIỎ HÀNG & ĐĂNG NHẬP MỚI -->
+      <div class="hidden md:flex items-center gap-3">
+        
+        <!-- Icon Giỏ Hàng -->
+        <a href="#cart" class="relative p-2.5 text-gray-700 hover:text-brandRed hover:bg-gray-100 rounded-full transition-colors flex items-center justify-center" title="Giỏ hàng">
+          <i class="fa-solid fa-bag-shopping text-lg"></i>
+          <!-- Badge số lượng mặt hàng (Tùy chỉnh) -->
+          <span class="absolute -top-1 -right-1 bg-brandRed text-white text-[9px] font-black w-4 h-4 rounded-full flex items-center justify-center border-2 border-white">0</span>
         </a>
-      </div>
 
+        <!-- Nút Đăng Nhập -->
+        <a href="#login" class="flex items-center gap-2 bg-black text-white font-extrabold text-xs uppercase tracking-widest px-5 py-2.5 rounded-full hover:bg-brandRed transition-colors shadow-sm">
+          <i class="fa-solid fa-user text-xs"></i>
+          <span>Đăng Nhập</span>
+        </a>
+
+      </div>
     </div>
   </header>
 
